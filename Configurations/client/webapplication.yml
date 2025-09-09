@@ -1,0 +1,15 @@
+id: cf529985-fbf8-427e-9012-29c4dfe395b1
+type: web-application
+name: WebApplication
+description: WebApplication example
+prefix: ca
+author: CodeArchitects
+target: angular@19
+architecture: single-page-application
+children:
+- id: 60a1ff60-15d0-4e7b-a5da-42df23aabc4c
+  type: application
+- id: 9fc45d8e-ae32-4c3d-baa4-6df0edb28516
+  type: domain
+- id: 4c60accb-7464-4bf4-82c8-84cc7dd19bde
+  type: scenario
